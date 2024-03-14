@@ -1,0 +1,18 @@
+* {
+margin: 10px;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+:root {
+    font-family: "Roboto Mono", monospace;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav{
+    display: flex;
+}
