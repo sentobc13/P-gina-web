@@ -15,3 +15,16 @@
     .nav{
         display: flex;
     }
+    h2{
+        text-align: center;
+    }
+
+    footer {
+        background-color: rgb(43, 44, 43);
+        color: white;
+        text-align: center;
+        padding: 1px;
+        width: 85%;
+        position: fixed;
+        bottom: 0;
+    }

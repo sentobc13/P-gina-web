@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="contacto.css">
 </head>
+
 <body>
     <h1>Contacto</h1>
     <nav>
@@ -14,5 +16,29 @@
         <a href="./porfolio.html">Portfolio</a>
         <a href="./contacto.html">Contacto</a>
     </nav>
+
+    <form><br>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre"><b>Nombre:</b></label><br>
+            <input type="text" id="nombre" name="nombre" placeholder="texto" autofocus required><br>
+            <label for="apellido"><b>Apellido:</b></label><br>
+            <input type="text" id="apellido" name="apellido" placeholder="texto" required><br>
+            <label for="consulta"><b>Consulta:</b></label><br>
+            <textarea name="mensaje" rows="3" cols="20"></textarea><br><br>
+            <label for="correo"><b>Correo elcetrónico:</b></label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="telefono"><b>Número de teléfono:</b></label><br>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+
+            
+    <footer>
+        <p>Mi Página Web - sento.berlanga</p>
+    </footer>
+
 </body>
+
 </html>

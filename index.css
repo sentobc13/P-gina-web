@@ -1,18 +1,38 @@
 * {
-margin: 10px;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
+
 :root {
     font-family: "Roboto Mono", monospace;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: space-around;
 
 }
-.nav{
+
+.nav {
     display: flex;
+}
+
+h2 {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(43, 44, 43);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    width: 85%;
+    position: fixed;
+    bottom: 0;
 }
