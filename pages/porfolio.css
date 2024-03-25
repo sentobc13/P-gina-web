@@ -16,6 +16,14 @@
     display: flex;
 }
 
+.pics{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
 footer {
     background-color: rgb(43, 44, 43);
     color: white;
